@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="stopwatch" Register="128" Alu="62" Lut="655" Dsp="1"/>
+<Module name="stopwatch" Register="121" Alu="62" Lut="676" MULTALU36X18="1" T_Register="121(121)" T_Alu="62(62)" T_Lut="676(676)" T_MULTALU36X18="1(1)"/>

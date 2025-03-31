@@ -1,12 +1,15 @@
--d C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\impl\gwsynthesis\Stopwatch.vg
+-d /home/noobermin/s/i/ntu/tangtry/Gowin-FPGA-Stopwatch/Stopwatch/impl/gwsynthesis/Stopwatch.vg
 -p GW2AR-18C-QFN88P-8
 -pn GW2AR-LV18QN88PC8/I7
--cst C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\src\StopWatchModule.cst
--cfg C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\impl\pnr\device.cfg
--sdc C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\src\Stopwatch.sdc
+-cst /home/noobermin/s/i/ntu/tangtry/Gowin-FPGA-Stopwatch/Stopwatch/src/StopWatchModule.cst
+-cfg /home/noobermin/s/i/ntu/tangtry/Gowin-FPGA-Stopwatch/Stopwatch/impl/pnr/device.cfg
+-sdc /home/noobermin/s/i/ntu/tangtry/Gowin-FPGA-Stopwatch/Stopwatch/src/Stopwatch.sdc
 -bit
 -tr
 -ph
 -timing
 -cst_error
+-convert_sdp32_36_to_sdp16_18
+-correct_hold 1
 -route_maxfan 23
+-global_freq 100.000

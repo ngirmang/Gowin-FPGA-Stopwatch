@@ -25,31 +25,32 @@ IO_LOC "led[5]" 20;
 IO_PORT "led[5]" PULL_MODE=UP DRIVE=4;
 
 // Segment display
-IO_LOC "segLED[0]" 77;
+IO_LOC "segBlock[0]" 76; // D1-8
+IO_PORT "segBlock[0]" PULL_MODE=DOWN DRIVE=12;
+IO_LOC "segBlock[1]" 42; // D2-6
+IO_PORT "segBlock[1]" PULL_MODE=DOWN DRIVE=12;
+IO_LOC "segBlock[2]" 53; // D3-2
+IO_PORT "segBlock[2]" PULL_MODE=DOWN DRIVE=12;
+IO_LOC "segBlock[3]" 52; // D4-1
+IO_PORT "segBlock[3]" PULL_MODE=DOWN DRIVE=12;
+
+IO_LOC "segLED[0]" 48; // A-14
 IO_PORT "segLED[0]" PULL_MODE=UP DRIVE=12;
-IO_LOC "segLED[1]" 27;
+IO_LOC "segLED[1]" 49; // B-16
 IO_PORT "segLED[1]" PULL_MODE=UP DRIVE=12;
-IO_LOC "segLED[2]" 28;
+IO_LOC "segLED[2]" 51; // C-13
 IO_PORT "segLED[2]" PULL_MODE=UP DRIVE=12;
-IO_LOC "segLED[3]" 25;
+IO_LOC "segLED[3]" 71; // D-3
 IO_PORT "segLED[3]" PULL_MODE=UP DRIVE=12;
-IO_LOC "segLED[4]" 26;
+IO_LOC "segLED[4]" 41; // E-5
 IO_PORT "segLED[4]" PULL_MODE=UP DRIVE=12;
-IO_LOC "segLED[5]" 29;
+IO_LOC "segLED[5]" 56; // F-11
 IO_PORT "segLED[5]" PULL_MODE=UP DRIVE=12;
-IO_LOC "segLED[6]" 30;
+IO_LOC "segLED[6]" 55; // G-15
 IO_PORT "segLED[6]" PULL_MODE=UP DRIVE=12;
-IO_LOC "segLED[7]" 31;
+IO_LOC "segLED[7]" 80; // DP-7
 IO_PORT "segLED[7]" PULL_MODE=UP DRIVE=12;
 
-IO_LOC "segBlock[0]" 41;
-IO_PORT "segBlock[0]" PULL_MODE=DOWN DRIVE=12;
-IO_LOC "segBlock[1]" 42;
-IO_PORT "segBlock[1]" PULL_MODE=DOWN DRIVE=12;
-IO_LOC "segBlock[2]" 80;
-IO_PORT "segBlock[2]" PULL_MODE=DOWN DRIVE=12;
-IO_LOC "segBlock[3]" 76;
-IO_PORT "segBlock[3]" PULL_MODE=DOWN DRIVE=12;
 
 // Buttons
 IO_LOC "sys_rst" 87;

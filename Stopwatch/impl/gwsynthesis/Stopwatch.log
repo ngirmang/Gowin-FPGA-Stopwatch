@@ -1,11 +1,8 @@
 GowinSynthesis start
 Running parser ...
-Analyzing Verilog file 'C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\src\StopwatchModule.v'
-Undeclared symbol 'sys_rst_n', assumed default net type 'wire'("C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\src\StopwatchModule.v":17)
-Compiling module 'stopwatch'("C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\src\StopwatchModule.v":1)
-WARN  (EX3780) : Using initial value of 'timeScale' since it is never assigned("C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\src\StopwatchModule.v":13)
-WARN  (EX3780) : Using initial value of 'segmentCounterTimeScale' since it is never assigned("C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\src\StopwatchModule.v":82)
-WARN  (EX3791) : Expression size 34 truncated to fit in target size 6("C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\src\StopwatchModule.v":33)
+Analyzing Verilog file '/home/noobermin/s/i/ntu/tangtry/Gowin-FPGA-Stopwatch/Stopwatch/src/StopwatchModule.v'
+Compiling module 'stopwatch'("/home/noobermin/s/i/ntu/tangtry/Gowin-FPGA-Stopwatch/Stopwatch/src/StopwatchModule.v":1)
+WARN  (EX3791) : Expression size 34 truncated to fit in target size 6("/home/noobermin/s/i/ntu/tangtry/Gowin-FPGA-Stopwatch/Stopwatch/src/StopwatchModule.v":32)
 NOTE  (EX0101) : Current top module is "stopwatch"
 [5%] Running netlist conversion ...
 Running device independent optimization ...
@@ -23,6 +20,6 @@ Running technical mapping ...
 [75%] Tech-Mapping Phase 2 completed
 [80%] Tech-Mapping Phase 3 completed
 [90%] Tech-Mapping Phase 4 completed
-[95%] Generate netlist file "C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\impl\gwsynthesis\Stopwatch.vg" completed
-[100%] Generate report file "C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\impl\gwsynthesis\Stopwatch_syn.rpt.html" completed
+[95%] Generate netlist file "/home/noobermin/s/i/ntu/tangtry/Gowin-FPGA-Stopwatch/Stopwatch/impl/gwsynthesis/Stopwatch.vg" completed
+[100%] Generate report file "/home/noobermin/s/i/ntu/tangtry/Gowin-FPGA-Stopwatch/Stopwatch/impl/gwsynthesis/Stopwatch_syn.rpt.html" completed
 GowinSynthesis finish

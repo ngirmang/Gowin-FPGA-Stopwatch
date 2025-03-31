@@ -1,7 +1,7 @@
-Reading netlist file: "C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\impl\gwsynthesis\Stopwatch.vg"
-Parsing netlist file "C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\impl\gwsynthesis\Stopwatch.vg" completed
+Reading netlist file: "/home/noobermin/s/i/ntu/tangtry/Gowin-FPGA-Stopwatch/Stopwatch/impl/gwsynthesis/Stopwatch.vg"
+Parsing netlist file "/home/noobermin/s/i/ntu/tangtry/Gowin-FPGA-Stopwatch/Stopwatch/impl/gwsynthesis/Stopwatch.vg" completed
 Processing netlist completed
-Reading constraint file: "C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\src\StopWatchModule.cst"
+Reading constraint file: "/home/noobermin/s/i/ntu/tangtry/Gowin-FPGA-Stopwatch/Stopwatch/src/StopWatchModule.cst"
 Physical Constraint parsed completed
 Running placement......
 [10%] Placement Phase 0 completed
@@ -21,10 +21,10 @@ Bitstream generation in progress......
 Bitstream generation completed
 Running power analysis......
 [100%] Power analysis completed
-Generate file "C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\impl\pnr\Stopwatch.power.html" completed
-Generate file "C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\impl\pnr\Stopwatch.pin.html" completed
-Generate file "C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\impl\pnr\Stopwatch.rpt.html" completed
-Generate file "C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\impl\pnr\Stopwatch.rpt.txt" completed
-Generate file "C:\Users\kistan\Documents\GitHub\Gowin-FPGA-Stopwatch\Stopwatch\impl\pnr\Stopwatch.tr.html" completed
-Fri Dec 29 14:49:17 2023
+Generate file "/home/noobermin/s/i/ntu/tangtry/Gowin-FPGA-Stopwatch/Stopwatch/impl/pnr/Stopwatch.power.html" completed
+Generate file "/home/noobermin/s/i/ntu/tangtry/Gowin-FPGA-Stopwatch/Stopwatch/impl/pnr/Stopwatch.pin.html" completed
+Generate file "/home/noobermin/s/i/ntu/tangtry/Gowin-FPGA-Stopwatch/Stopwatch/impl/pnr/Stopwatch.rpt.html" completed
+Generate file "/home/noobermin/s/i/ntu/tangtry/Gowin-FPGA-Stopwatch/Stopwatch/impl/pnr/Stopwatch.rpt.txt" completed
+Generate file "/home/noobermin/s/i/ntu/tangtry/Gowin-FPGA-Stopwatch/Stopwatch/impl/pnr/Stopwatch.tr.html" completed
+Mon Mar 31 22:58:13 2025
 
